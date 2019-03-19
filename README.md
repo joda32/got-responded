@@ -7,6 +7,7 @@
 Author: @_w_m__   
 A simple tool to detect NBT-NS and LLMNR spoofing (and messing with them a bit)
 ```
+![gif](https://i.imgur.com/myBGqLz.gif)
 
 ## What is it?
 Pentesters, Redteamers and even real attackers love to use tools like Responder to spoof LLMNR and/or NBT-NS responses. There are some awesome other tools to help with detection, such as [respounder](https://github.com/codeexpress/respounder). But I wanted to figure it out for my self, and at the same time add a way to push "honey" tokens (fake AD credentials) to people using these spoofing tools.
