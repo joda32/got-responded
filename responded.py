@@ -170,5 +170,6 @@ if __name__ == "__main__":
             if args.seedresponder:
                 sendSMBConnection(activeResponderIp, args.fakedrive, args.fakedir, args.domain.upper())
             sleep(args.staysilent)
+            logging.info("Going silent for {}s, don't want to spam the responder".format(args.staysilent))
         else:
             sleep(args.delay)
